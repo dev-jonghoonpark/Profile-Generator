@@ -1,0 +1,181 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+/*font-family Nanum Gothic*/
+
+*{
+	font-family : Nanum Gothic;
+}
+
+html{
+	min-width:350px;
+	max-width: 600px;
+	margin:auto;
+}
+
+body {
+	border : 1px #6f5499 solid;
+}
+/*header*/
+
+header {
+	clear:both;
+	text-align: left; 
+	color:#6f5499;
+	padding-left:16px;
+	font-size:12px;
+	background:#FFFFFF;
+}
+
+/*intro*/
+
+#intro {
+	width: 100%;
+	text-align: center;
+	height : 200px;
+	line-height : 240px;
+	background : #6f5499;
+}
+
+#boundary {
+	border : 4px #ffffff solid;
+	display: inline-block;
+	width : 128px;
+	height : 128px;
+	margin-left : 84px;
+	line-height : 128px;
+}
+
+#profile {
+	/* Set the margin-left and margin-right automatically set */
+	display: inline-block;
+	width : 128px;
+	height : 128px;
+	line-height : 128px;
+	background :#1abc9c;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+	user-select: none;
+	cursor:default;
+}
+
+#text {
+	margin-top : 0;
+	margin-bottom : 0;
+	display: inline-block;
+	font-size : 56px;
+	text-align: center; 
+	color : #FFFFFF;
+}
+
+#intro p {
+	color : #FFFFFF;
+}
+
+#download {
+	width:48px;
+	height:48px;
+	margin-top : 36px;
+	margin-right : 36px;
+	float : right;
+}
+
+/*setting*/
+
+#setting {
+	position : relative;
+	width : 100%;
+	padding-top : 24px;
+	padding-bottom : 32px;
+	text-align : left;
+	margin : auto;
+}
+
+#input_text{
+	width : 256px;
+	font-size : 48px;
+}
+
+#form {
+	padding-left : 24px;
+}
+
+#form p {
+	font-size : 16px;
+	font-weight: bold;	
+}
+#hint {
+	font-size : 12px;
+	font-weight: none;		
+}
+
+.color {
+	width : 36px;
+	height : 36px;
+}
+
+#form button {
+	border-style: solid;
+	border-width : 1px 1px 1px 1px;
+	padding : 16px;
+	font-size : 16px;
+	border-color : #000000;
+	font-weight: bold;
+	margin:auto;
+}
+
+#color1 {
+	background : #1abc9c;
+}
+
+#color2 {
+	background : #2ecc71;
+}
+
+#color3 {
+	background : #3498db;
+}
+
+#color4 {
+	background : #9b59b6;
+}
+
+#color5 {
+	background : #34495e;
+}
+
+#color6 {
+	background : #f1c40f;
+}
+
+#color7 {
+	background : #e67e22;
+}
+
+#color8 {
+	background : #e74c3c;
+}
+
+#color9 {
+	background : #bdc3c7;
+}
+
+#color10 {
+	background : #95a5a6;
+}
+
+/*footer*/
+
+footer {
+	clear:both;	
+    color: #99979c;
+	text-align: center; 
+    background-color: #2a2730;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+footer a {
+    color: #fff;
+}
